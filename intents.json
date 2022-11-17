@@ -1,0 +1,43 @@
+{"intents": [
+    {"tag": "greeting", 
+     "patterns" : ["hello", "hey", "hi", "good day", "Greetings", "whats' up?", "how is it going?"],
+     "responses" : ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {"tag": "goodbye", 
+        "patterns" : ["cu", "cya", "see you", "goodbye", "bye", "Have a good day"],
+        "responses" : ["Goodbye!", "Thank you for using our CathAI Chatbot!"]
+    },
+    {"tag": "name", 
+        "patterns" : [
+            "what is your name?", "what should I call you?", 
+            "who are you?", "whats your name?", "Can you tell me your name?"],
+        "responses" : ["I'm CathAI Chatbot!"]
+    },
+    {"tag": "age", 
+        "patterns" : ["How old are you?", "How old?"],
+        "responses" : ["I'm one year old!"]
+    },
+
+    {"tag": "thanks", 
+        "patterns" : ["Thank you", "thanks", "great!"],
+        "responses" : ["You're welcome!", "No problem!", "Not at all!", "It's my pleasure"]
+    },
+    
+    {"tag": "blanket", 
+        "patterns" : ["im cold", "Im cold", "arent you cold?", "do you have a blanket?", "i want a blanket", "i feel cold"],
+        "responses" : ["A Blanket will be delivered to you in a few minite."]
+    },
+    {"tag": "headphone", 
+        "patterns" : ["do you have a headphone?", "do you have a headset?", "I want to liseten to a music"],
+        "responses" : ["A Headphone will be delivered to you in a few minite."]
+    },
+    {"tag": "Tissue", 
+        "patterns" : ["do you have tissues?", "i spilt my drinks", "i want to wipe it"],
+        "responses" : ["A Tissue will be delivered to you in a few minite."]
+    },
+    {"tag": "ear plugs", 
+        "patterns" : ["i think its too noisy", "too much noisy", "the person in the back is loud", "why the engines are so loud?"],
+        "responses" : ["A pair of Ear Plugs will be delivered to you in a few minite."]
+    }
+    
+]}
